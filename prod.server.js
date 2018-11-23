@@ -17,6 +17,7 @@ router.get('/seller', function (req, res) {
 })
 
 router.get('/goods', function (req, res) {
+  console.log(ratings)
   res.json({
     errno: 0,
     data: goods
